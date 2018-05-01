@@ -121,3 +121,23 @@ body {
   right: 100px;
   top: 7px;
 }
+
+.slider {
+  position: relative;
+  width: 1160px;
+  height: 430px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+.slider-controls {
+  position: absolute;
+  width: 240px;
+  height: 20px;
+  bottom: 96px;
+  left: 50%;
+  margin-left: 9px;
+
+}
