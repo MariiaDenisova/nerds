@@ -25,7 +25,9 @@
 .slider {
   background-color: rgba(4, 83, 205, 0.29);
 }
-
+.slider-controls {
+  background-color: rgba(43, 151, 166, 0.56);
+}
 
 
 /* спрайт */
