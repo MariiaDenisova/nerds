@@ -2,7 +2,7 @@ body {
   min-width: 1200px;
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', 'Arial' sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 16px;
   line-height: 24px;
   background-color: #ffffff;
@@ -54,10 +54,10 @@ body {
 }
 
 .main-navigation {
-  margin-left: 200px;
+  margin-left: 202px;
   width: 500px;
   float: left;
-  margin-top: 73px;
+  margin-top: 75px;
 }
 
 .main-navigation ul {
@@ -72,7 +72,8 @@ body {
   vertical-align: top;
   font-size: 16px;
   line-height: 30px;
-  margin-right: 49px;
+  font-weight: 500;
+  margin-right: 46px;
 }
 
 .main-navigation a {
@@ -94,7 +95,7 @@ body {
   float: right;
   width: 160px;
   text-align: right;
-  margin-top: 73px;
+  margin-top: 75px;
 }
 
 .basket {
@@ -103,6 +104,7 @@ body {
   vertical-align: top;
   font-size: 16px;
   line-height: 30px;
+  font-weight: 500;
   text-decoration: none;
   color: #000000;
   text-transform: uppercase;
