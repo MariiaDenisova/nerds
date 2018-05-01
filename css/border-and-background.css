@@ -10,3 +10,83 @@
 .main-navigation {
   background-color: rgba(7, 238, 2, 0.22);
 }
+.main-navigation li {
+  background-color: rgba(255, 126, 0, 0.18);
+}
+.main-navigation a {
+  background-color: rgba(111, 247, 9, 0.19);
+}
+.basket-menu {
+  background-color: rgba(10, 57, 34, 0.41);
+}
+.basket {
+  background-color: rgba(209, 14, 90, 0.23);
+}
+
+
+/* спрайт */
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Header-logo {
+    width: 160px;
+    height: 65px;
+    background-position: -10px -10px;
+}
+
+.sprite-check-icon {
+    width: 27px;
+    height: 23px;
+    background-position: -190px -10px;
+}
+
+.sprite-check-icon-round {
+    width: 25px;
+    height: 25px;
+    background-position: -237px -10px;
+}
+
+.sprite-fb {
+    width: 12px;
+    height: 22px;
+    background-position: -190px -55px;
+}
+
+.sprite-icon-basket {
+    width: 15px;
+    height: 15px;
+    background-position: -222px -55px;
+}
+
+.sprite-inst {
+    width: 21px;
+    height: 21px;
+    background-position: -257px -55px;
+}
+
+.sprite-logo-borodinski {
+    width: 209px;
+    height: 90px;
+    background-position: -10px -97px;
+}
+
+.sprite-logo-html-academy {
+    width: 199px;
+    height: 68px;
+    background-position: -10px -207px;
+}
+
+.sprite-logo-pink {
+    width: 185px;
+    height: 52px;
+    background-position: -298px -10px;
+}
+
+.sprite-vk {
+    width: 26px;
+    height: 15px;
+    background-position: -298px -82px;
+}
