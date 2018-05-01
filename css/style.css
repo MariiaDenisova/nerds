@@ -101,11 +101,21 @@ body {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  text-align: right;
   font-size: 16px;
   line-height: 30px;
   text-decoration: none;
   color: #000000;
   text-transform: uppercase;
 
+}
+
+.basket::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: transparent url("../pictures/sprite.png") no-repeat;
+  background-position: -222px -55px;
+  right: 100px;
+  top: 7px;
 }
