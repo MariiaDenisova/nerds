@@ -13,8 +13,6 @@ body {
 }
 
 .main-header {
-  margin-bottom: 80px;
-
   color: #000000;
 
   background-color: #eeeeee;
@@ -36,6 +34,10 @@ body {
   padding: 0;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.navigation {
+  padding-bottom: 1px;
 }
 
 .navigation-logo {
@@ -227,8 +229,7 @@ body {
 /* дооформить слайдер */
 
 .features {
-  padding: 0;
-
+  padding: 80px 0;
 }
 
 .features-item {
@@ -248,11 +249,18 @@ body {
 
 .features-item-title {
   font-size: 24px;
-  margin: 0;
-  margin-top: 26px;
   line-height: 30px;
   font-weight: 700;
+  margin: 0;
+  margin-top: 18px;
+  /* какая-то непонятная борода с margin-top */
   color: #000000;
   background-color: #ffffff;
   text-transform: uppercase;
+}
+
+.features-item p {
+  color: #283136;
+  background-color: #ffffff;
+  padding-right: 40px;
 }
