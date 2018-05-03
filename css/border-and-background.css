@@ -28,14 +28,11 @@
 .slider-controls {
   background-color: rgba(43, 151, 166, 0.56);
 }
-
+.slide {
+  background-color: rgba(150, 244, 2, 0.19);
+}
 
 /* спрайт */
-.sprite {
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-}
 
 .sprite-Header-logo {
     width: 160px;
