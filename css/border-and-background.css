@@ -31,6 +31,14 @@
 .slide {
   background-color: rgba(150, 244, 2, 0.19);
 }
+.reference-information {
+  background-color: rgba(43, 151, 166, 0.56);
+}
+.reference-information-left,
+.reference-information-right {
+  background-color: rgba(209, 14, 90, 0.23);
+}
+
 
 /* спрайт */
 

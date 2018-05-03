@@ -230,6 +230,7 @@ body {
 
 .features {
   padding: 80px 0;
+  border-bottom: 2px solid #eeeeee;
 }
 
 .features-item {
@@ -270,29 +271,6 @@ body {
   background-color: #ffffff;
 }
 
-/* .features-item .btn {
-  display: inline-block;
-  font: inherit;
-  background-color: #fb565a;
-  color: #ffffff;
-  cursor: pointer;
-  text-decoration: none;
-  text-transform: uppercase;
-  border: none;
-  font-weight: 500;
-  vertical-align: top;
-  text-align: center;
-  border-radius: 3px;
-}
-
-.features-btn-design {
-  padding-top: 14px;
-  padding-right: 40px;
-  padding-bottom: 13px;
-  padding-left: 40px;
-  margin-top: 32px;
-} */
-
 .btn {
   display: inline-block;
   font: inherit;
@@ -308,7 +286,7 @@ body {
   border-radius: 3px;
   padding: 0;
   padding-top: 14px;
-  padding-bottom: 13px;
+  padding-bottom: 12px;
   margin-top: 32px;
 }
 
@@ -322,12 +300,38 @@ body {
   color: #ffffff;
 }
 
-.delimiter {
-  width: 1160px;
-  height: 2px;
+.reference-information {
+  padding: 70px 0;
 }
 
-.delimiter img {
-  width: 1160px;
-  height: 2px;
+.reference-information-left {
+  float: left;
+  width: 660px;
 }
+
+.reference-caption {
+  display: block;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  padding-top: 5px;
+  margin-bottom: 32px;
+}
+
+.reference-information-left p {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 39px;
+}
+
+.table-caption {
+  text-transform: uppercase;
+}
+
+.reference-information-right {
+  float: right;
+  width: 360px;
+}
+
+
+
