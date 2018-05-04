@@ -301,7 +301,7 @@ body {
 }
 
 .reference-information {
-  padding: 70px 0;
+  padding: 40px 0;
 }
 
 .reference-information-left {
@@ -314,7 +314,7 @@ body {
   font-size: 45px;
   line-height: 45px;
   font-weight: 500;
-  padding-top: 5px;
+  padding-top: 35px;
   margin-bottom: 32px;
   font-weight: bold;
 }
@@ -325,25 +325,26 @@ body {
   margin-bottom: 39px;
 }
 
-/* почему-то не хочет делать uppercase через класс "table-caption" */
-.reference-information-left strong {
+/* почему-то не хочет делать uppercase через класс "li-caption" */
+.li-caption {
   text-transform: uppercase;
+  margin-top: 29px;
 }
 
-.table-content {
+.ul-content {
   margin: 0;
   padding: 0;
 
   list-style: none;
 }
 
-.table-content li {
+.ul-content li {
   padding-top: 24px;
   padding-left: 36px;
   position: relative;
 }
 
-.table-content li::before {
+.ul-content li::before {
   content: "";
   position: absolute;
   width: 25px;
@@ -367,4 +368,43 @@ body {
 .reference-logo img {
   width: 360px;
   height: 208px;
+}
+
+.table-caption {
+  display: block;
+  margin-top: 29px;
+  padding-left: 19px;
+  text-transform: uppercase;
+}
+
+.table-content {
+  display: block;
+  border: none;
+  margin-top: 30px;
+}
+
+.table-content th {
+  font-size: 45px;
+  line-height: 1;
+  font-weight: bold;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 9px 0;
+  padding-right: 12px;
+}
+
+.table-content th:last-child {
+  padding-right: 0;
+}
+
+.table-content td {
+  color: #283136;
+  background-color: #ffffff;
+  line-height: 18px;
+  padding: 8px 0;
+  padding-right: 12px;
+}
+
+.table-content td:last-child {
+  padding-right: 0;
 }
