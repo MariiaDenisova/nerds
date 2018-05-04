@@ -316,6 +316,7 @@ body {
   font-weight: 500;
   padding-top: 5px;
   margin-bottom: 32px;
+  font-weight: bold;
 }
 
 .reference-information-left p {
@@ -324,14 +325,46 @@ body {
   margin-bottom: 39px;
 }
 
-.table-caption {
+/* почему-то не хочет делать uppercase через класс "table-caption" */
+.reference-information-left strong {
   text-transform: uppercase;
 }
+
+.table-content {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.table-content li {
+  padding-top: 24px;
+  padding-left: 36px;
+  position: relative;
+}
+
+.table-content li::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background-color: #fb565a;
+  left: 1px;
+  bottom: 11px;
+}
+
 
 .reference-information-right {
   float: right;
   width: 360px;
 }
 
+.picture-logo {
+  width: 360px;
+  height: 208px;
+}
 
-
+.reference-logo img {
+  width: 360px;
+  height: 208px;
+}
