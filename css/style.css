@@ -380,17 +380,21 @@ body {
 .table-content {
   display: block;
   border: none;
+  margin: 0;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 .table-content th {
+  width: 120px;
   font-size: 45px;
   line-height: 1;
   font-weight: bold;
   color: #000000;
   background-color: #ffffff;
   padding: 9px 0;
-  padding-right: 12px;
 }
 
 .table-content th:last-child {
@@ -398,13 +402,21 @@ body {
 }
 
 .table-content td {
+  width: 120px;
   color: #283136;
   background-color: #ffffff;
   line-height: 18px;
   padding: 8px 0;
-  padding-right: 12px;
 }
 
 .table-content td:last-child {
   padding-right: 0;
+}
+
+.table-content sup {
+  font-size: 27px;
+}
+
+.partners-logo {
+
 }

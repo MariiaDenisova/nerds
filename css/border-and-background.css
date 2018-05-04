@@ -39,6 +39,13 @@
   background-color: rgba(209, 14, 90, 0.23);
 }
 
+.table-content {
+  background-color: rgba(209, 14, 90, 0.23);
+}
+
+.table-content th {
+  background-color: goldenrod;
+}
 
 /* спрайт */
 
