@@ -38,14 +38,19 @@
 .reference-information-right {
   background-color: rgba(209, 14, 90, 0.23);
 }
-
 .table-content {
   background-color: rgba(209, 14, 90, 0.23);
 }
-
 .table-content th {
   background-color: goldenrod;
 }
+.partners-logo {
+  background-color: rgba(232, 249, 5, 0.21);
+}
+.partners-logo img {
+  background-color: deeppink;
+}
+
 
 /* спрайт */
 

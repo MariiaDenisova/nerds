@@ -417,6 +417,29 @@ body {
   font-size: 27px;
 }
 
-.partners-logo {
-
+.partners {
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+  min-height: 180px;
+  margin-top: 30px;
+  /* vertical-align: middle; */
 }
+
+.partners-logo {
+  vertical-align: middle;
+  float: left;
+  width: 260px;
+  /* margin-top: 52px; */
+  margin-right: 40px;
+  /* margin-bottom: 44px; */
+  margin-left: 0;
+  opacity: 0.2;
+  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.partners-logo:last-child {
+  margin-right: 0;
+}
+
